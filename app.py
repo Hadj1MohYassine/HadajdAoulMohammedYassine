@@ -18,6 +18,7 @@ def main():
         .main {
             font-family: 'Roboto', sans-serif;
             color: #2C3E50;
+            background-color: #f5f7fa;
         }
         
         .header-name {
@@ -27,7 +28,7 @@ def main():
             color: #1a237e;
             margin-bottom: 0.5rem;
             padding: 1rem;
-            background: linear-gradient(to right, #ffffff, #f5f7fa);
+            background: linear-gradient(to right, #e3f2fd, #bbdefb);
             border-radius: 10px;
         }
         
@@ -39,7 +40,7 @@ def main():
         }
         
         .contact-info {
-            background-color: #f8f9fa;
+            background-color: #e3f2fd;
             padding: 1rem;
             border-radius: 10px;
             margin-bottom: 2rem;
@@ -56,15 +57,30 @@ def main():
         }
         
         .experience-box {
-            background-color: #ffffff;
+            background-color: #e3f2fd;
             padding: 1.5rem;
             border-radius: 10px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
             margin-bottom: 1rem;
+            color: #1a237e;
+        }
+        
+        .experience-box h3, .experience-box h4 {
+            color: #1a237e;
+            margin-bottom: 0.5rem;
+        }
+        
+        .experience-box ul {
+            color: #2C3E50;
+        }
+        
+        .experience-box li {
+            margin-bottom: 0.5rem;
         }
         
         .skill-tag {
-            background-color: #e3f2fd;
+            background-color: #1a237e;
+            color: white;
             padding: 0.5rem 1rem;
             border-radius: 20px;
             margin: 0.25rem;
@@ -78,13 +94,14 @@ def main():
         }
         
         .date-range {
-            color: #546e7a;
+            color: #37474f;
             font-style: italic;
         }
         
         .achievement {
             margin-left: 1.5rem;
             margin-bottom: 0.5rem;
+            color: #2C3E50;
         }
         
         .download-button {
@@ -95,6 +112,22 @@ def main():
             text-decoration: none;
             margin-top: 1rem;
             display: inline-block;
+        }
+
+        /* Override Streamlit's default background */
+        .stApp {
+            background-color: #f5f7fa;
+        }
+
+        /* Make sure links are visible */
+        a {
+            color: #1a237e;
+            text-decoration: underline;
+        }
+
+        /* Ensure text in markdown is visible */
+        p, li {
+            color: #2C3E50;
         }
         </style>
     """, unsafe_allow_html=True)
