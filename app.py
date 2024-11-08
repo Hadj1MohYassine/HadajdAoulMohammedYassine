@@ -145,7 +145,7 @@ def main():
     with contact_cols[2]:
         st.markdown("📱 +213 659 012 6015")
     with contact_cols[3]:
-        st.markdown("🔗 [LinkedIn](#)")
+        st.markdown("🔗 [LinkedIn](https://www.linkedin.com/in/mohammed-yassine-hadjadj-aoul/)")
 
     # Professional Summary
     st.markdown("<h2 class='section-title'>PROFESSIONAL SUMMARY</h2>", unsafe_allow_html=True)
