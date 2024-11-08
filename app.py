@@ -134,7 +134,7 @@ def main():
 
     # Header Section
     st.markdown("<h1 class='header-name'>HADIADJ AOUL MOHAMMED YASSIN</h1>", unsafe_allow_html=True)
-    st.markdown("<p class='header-title'>Infograph Designer & CNC Specialist</p>", unsafe_allow_html=True)
+    st.markdown("<p class='header-title'>Infograph Designer & CNC Specialist & Python Dev</p>", unsafe_allow_html=True)
 
     # Contact Information
     contact_cols = st.columns(4)
@@ -180,10 +180,11 @@ def main():
             <p class='date-range'>2021 - Present</p>
             <p><strong>Key Responsibilities & Achievements:</strong></p>
             <ul>
-                <li>Designed and implemented 100+ custom furniture projects using Polyboard CAD software</li>
+                <li>Designed and implemented 100+ custom furniture projects using Polyboard software</li>
                 <li>Reduced production time by 30% through optimized CNC toolpath programming</li>
                 <li>Managed end-to-end project workflows for high-value client orders</li>
                 <li>Implemented quality control processes reducing defect rate by 25%</li>
+                <li>Leading a team of 5 for & Supervising other CNC Programmers</li>
             </ul>
             <p><strong>Technologies:</strong> Polyboard, ArtCam/Aspire, CorelDraw, CNC Programming</p>
         </div>
@@ -211,10 +212,10 @@ def main():
             <div class='experience-box'>
                 <h4>Software & Design</h4>
                 <ul>
-                    <li>Polyboard (Advanced)</li>
+                    <li>Polyboard (Expert)</li>
                     <li>CorelDraw (Expert)</li>
-                    <li>ArtCam/Aspire (Advanced)</li>
-                    <li>AutoCAD (Intermediate)</li>
+                    <li>ArtCam (Advanced)</li>
+                    <li>Aspire (Advanced)</li>
                 </ul>
             </div>
         """, unsafe_allow_html=True)
@@ -239,7 +240,7 @@ def main():
                 <ul>
                     <li>Arabic (Native)</li>
                     <li>English (Fluent)</li>
-                    <li>French (Professional)</li>
+                    <li>French (Intermediate)</li>
                 </ul>
             </div>
         """, unsafe_allow_html=True)
@@ -260,13 +261,13 @@ def main():
     """, unsafe_allow_html=True)
 
     # Professional Development
-    st.markdown("<h2 class='section-title'>PROFESSIONAL DEVELOPMENT</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 class='section-title'>PERSONAL DEVELOPMENT</h2>", unsafe_allow_html=True)
     st.markdown("""
         <div class='experience-box'>
             <ul>
-                <li>Advanced CAD/CAM Programming Workshop (2023)</li>
-                <li>Industrial Safety and Quality Control Certification (2022)</li>
-                <li>Project Management for Manufacturing (2021)</li>
+                <li>Python Discord/Telegram Bots</li>
+                <li>WebScraping</li>
+                <li>Judoka</li>
             </ul>
         </div>
     """, unsafe_allow_html=True)
